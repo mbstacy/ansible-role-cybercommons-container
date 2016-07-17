@@ -4,6 +4,6 @@
   docker:
     name: mongo
     image: mongo
-    state: present
+    state: started
     volumes:
     - /data/db
