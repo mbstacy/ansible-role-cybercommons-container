@@ -1,0 +1,9 @@
+---
+# tasks file for ansible-role-cybercommons
+- name: mongo container
+  docker:
+    name: mongo
+    image: mongo
+    state: present
+    volumes:
+    - /data/db
